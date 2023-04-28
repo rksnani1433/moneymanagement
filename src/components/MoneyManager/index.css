@@ -1,0 +1,112 @@
+/* Write your CSS here */
+.app-container {
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-container {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 1px 1px 2px 1px #475569;
+  border-radius: 10px;
+  padding: 20px;
+}
+.name-container {
+  padding: 10px;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  background-size: cover;
+  border-radius: 10px;
+  margin: 10px;
+}
+.richard-name {
+  color: #475569;
+  font-size: 16px;
+  font-family: Roboto;
+}
+.richard-text {
+  color: #475569;
+  font-size: 13px;
+  font-family: Roboto;
+}
+.blue-text {
+  color: blue;
+}
+.user-input-container {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  box-shadow: 1px 1px 1px 1px #475569;
+  margin: 5px;
+  width: 250px;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+}
+.user-title {
+  width: 200px;
+  padding: 6px;
+  margin: 5px;
+}
+.options-container {
+  width: 200px;
+  padding: 7px;
+  margin: 5px;
+}
+.lables {
+  color: #475569;
+  font-family: Roboto;
+  font-size: 10px;
+  margin-left: 5px;
+}
+.header {
+  color: #475569;
+  font-family: Roboto;
+  margin-left: 5px;
+}
+.add-button {
+  background-color: blue;
+  padding: 7px;
+  color: white;
+  border-radius: 5px;
+  width: 80px;
+  margin-left: 5px;
+}
+.transaction-container {
+  flex-direction: column;
+  box-shadow: 1px 1px 1px 1px #475569;
+  width: 250px;
+  margin: 5px;
+  display: inline;
+  padding: 5px;
+}
+.type-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid;
+  height: 30px;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin: 5px;
+}
+.history-head {
+  color: #475569;
+  font-size: 15px;
+  font-family: Roboto;
+  font-weight: bold;
+  display: inline;
+}
+.types {
+  color: #475569;
+  font-family: Roboto;
+  display: inline;
+  padding: 0px;
+  font-weight: bold;
+  font-size: 15px;
+}
+.transaction-history-container {
+  display: flex;
+  justify-content: space-around;
+}

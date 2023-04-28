@@ -1,0 +1,25 @@
+/* Write your CSS here */
+.deletebutton {
+  padding: 0px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+.item-container {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 1px solid;
+  margin: 5px;
+  border-radius: 5px;
+}
+.texts {
+  color: ;
+  font-size: 10px;
+  font-family: roboto;
+}
+.delete-img {
+  height: 15px;
+  width: 20px;
+}
